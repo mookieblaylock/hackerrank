@@ -3,6 +3,7 @@
 # The elements of the first array are all factors of the integer being considered
 # The integer being considered is a factor of all elements of the second array
 # aka all ints "between" the arrays 
+# return count of betweens
 
 def isFactorOfInt(a, b):
     # does a divide evenly into b (is A a factor of B)
