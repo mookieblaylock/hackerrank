@@ -1,3 +1,9 @@
+# input: two arrays of ints 
+# purpose: find all ints that match the criteria:
+# The elements of the first array are all factors of the integer being considered
+# The integer being considered is a factor of all elements of the second array
+# aka all ints "between" the arrays 
+
 def isFactorOfInt(a, b):
     # does a divide evenly into b (is A a factor of B)
     if b % a == 0:
